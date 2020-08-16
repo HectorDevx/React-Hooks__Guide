@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 
+import "./components/concepts/Desestructuración/desestructuración.js";
+
 import State from "./components/containers/State";
 import Contador from "./components/containers/Contador";
 import { Gato } from "./components/containers/Props";
@@ -9,6 +11,7 @@ import EventNative from "./components/concepts/EventNative";
 import { ConservarEventos } from "./components/concepts/ConservarEventos";
 import EventosPersonalizados from "./components/concepts/EventosPersonalizados";
 import RenderizadoCondicional from "./components/concepts/RenderizadoCondicional";
+import PropChildren from "./components/concepts/PropChildren";
 
 export const App = () => {
   const otrosDatos = {
@@ -27,6 +30,7 @@ export const App = () => {
       <ConservarEventos />
       <EventosPersonalizados />
       <RenderizadoCondicional />
+      <PropChildren />
     </Fragment>
   );
 };
